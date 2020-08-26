@@ -1,6 +1,6 @@
 basket= ['a', 'b', 'e','x', 'd']
-basket.append('p')
-new_basket= basket[:]
-new_basket.sort()
+new_basket=basket[:]
+basket.extend('C')
+new_basket=basket.clear()
 print(basket)
 print(new_basket)
